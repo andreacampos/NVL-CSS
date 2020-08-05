@@ -1,0 +1,65 @@
+/* Header */
+
+.titulo {
+    text-align: center;
+    border: 1px solid #ffffff;
+    width: 0 auto;
+    padding: 0 0 10px 0;
+    margin: 0 250px;
+}
+
+
+/* Nav */
+
+.navegacion {
+    text-align: center;
+    margin: 50px 0 0 0;
+    background-color: #ffffff;
+    width: 0 auto;
+    padding: 20px 0;
+}
+
+.navegacion a:hover {
+    color: fuchsia;
+}
+
+
+/* Section */
+
+section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+}
+
+p {
+    margin-top: 50px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.texto {
+    margin: 70px 0 0 0;
+    text-align: justify;
+}
+
+img {
+    margin: 50px 0 0 0;
+    width: 500px;
+    height: 500px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin: 50px 0 0 0;
+    background-color: #ffffff;
+    width: 0 auto;
+    padding: 5px 0;
+}
+
+.footer a:hover {
+    color: fuchsia;
+}
