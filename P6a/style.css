@@ -1,0 +1,83 @@
+body {
+    margin: 20px 0 0 500px;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 80px;
+}
+
+th {
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+}
+
+td {
+    font-family: 'Raleway', sans-serif;
+}
+
+.numero1 {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    font-weight: 700;
+}
+
+.numero2 {
+    border: 1px solid #ffffff;
+    background-color: #E6E6E6;
+    font-weight: 700;
+}
+
+.numero3 {
+    border: 1px solid #ffffff;
+    background-color: #cccccc;
+    font-weight: 700;
+}
+
+.numero4 {
+    border: 1px solid #ffffff;
+    background-color: #b3b3b3;
+    font-weight: 700;
+}
+
+.numero5 {
+    border: 1px solid #ffffff;
+    background-color: #999999;
+    font-weight: 700;
+}
+
+.numero6 {
+    border: 1px solid #ffffff;
+    background-color: #808080;
+    font-weight: 700;
+}
+
+.numero7 {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #666666;
+    font-weight: 700;
+}
+
+.numero8 {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #4c4c4c;
+    font-weight: 700;
+}
+
+.numero9 {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #333333;
+    font-weight: 700;
+}
+
+.numero10 {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: #191919;
+    font-weight: 700;
+}
