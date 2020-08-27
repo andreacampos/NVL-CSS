@@ -1,0 +1,219 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #E5AB74;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    margin-top: 50px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #FFDFAA;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: #FFDFAA;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFDFAA;
+    margin: 0;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+}
+
+ul {
+    width: 25%;
+    margin: auto;
+    display: inline-block;
+}
+
+li {
+    color: white;
+    font-size: 19px;
+}
+
+.bullets-centrados {
+    text-align: center;
+}
+
+.bullets-centrados:last-of-type {
+    margin-bottom: 120px;
+}
+
+.imagen-tarta {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 340px;
+    border-radius: 5%;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.espacio {
+    margin-top: 100px;
+}
+
+.espacio2 {
+    margin-top: 50px;
+}
+
+.lista {
+    font-size: 16px;
+}
+
+.cobertura {
+    margin-top: 50px;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.receta {
+    font-size: 17px;
+    text-align: center;
+}
+
+ol {
+    display: flex;
+}
+
+ol li {
+    list-style: none;
+}
+
+
+/* IMPAR */
+
+div.procedimiento-impar {
+    flex-basis: calc(60% - 50px);
+    margin-top: 70px;
+}
+
+ol img.imagen-impar {
+    flex-basis: calc(40% - 50px);
+    width: 70px;
+    border-radius: 5%;
+}
+
+
+/* PAR */
+
+ol img.imagen-par {
+    flex-basis: calc(30% - 80px);
+    width: 30%;
+    border-radius: 5%;
+}
+
+div.procedimiento-par {
+    flex-basis: calc(70% - 80px);
+    margin-top: 100px;
+}
+
+
+/* Formulario */
+
+label {
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.formulario-contacto {
+    background-color: #FFDFAA;
+    padding: 40px;
+    padding-bottom: 0;
+    border-radius: 5px;
+}
+
+.formulario-contacto .campo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.formulario-contacto .campo label {
+    flex: 0 0 8rem;
+}
+
+.formulario-contacto .campo input:not([type="submit"]),
+.formulario-contacto textarea {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+}
+
+.formulario-contacto textarea {
+    height: 20rem;
+}
+
+.formulario-contacto .enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Boton Formulario */
+
+.btn {
+    display: inline-block;
+    flex: 0 0 auto;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    background-color: #E5AB74;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #D8A675;
+}
